@@ -1,0 +1,159 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-color: #2196f3;
+    --second-color: #757575;
+}
+body{
+    font-family: var(--main-font);
+    color: #212121;
+}
+/* ====== COMPONENTS ====== */
+.navigation-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    }
+/* ====== END COMPONENTS ====== */
+
+/* ============ INDEX ============ */
+
+/* ====== HEADER ====== */
+
+.navigation-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus,
+.address-link:hover,
+.address-link:focus{
+    color: var(--main-color);
+}
+
+.mail-link,
+.tel-link{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--second-color);
+}
+
+/* ====== END HEDER ====== */
+
+/* ====== SECTION I ====== */
+
+.main-header {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.modal-btn {
+    background: var(--main-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer;
+
+}
+
+/* ====== END SECTION I ====== */
+
+
+/* ====== SECTION II ======*/
+
+.lorem-list-item-1 {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.lorem-list-item-2 {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+.secondary-header {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/* ====== END SECTION II ====== */
+
+
+/* ====== SECTION III ======*/
+
+.workers-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.workers-list-job {
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+/* ====== END SECTION III ======*/
+
+
+/* ====== FOOTER ====== */
+
+/* ====== END FOOTER ====== */
+
+
+
+/* ============ PORTFOLIO ============ */
+
+/* ====== SECTION ====== */
+.filtr-btn {
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+    background: var(--main-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.portfolio-list-name {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.portfolio-list-category {
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--second-color);
+}
+
+
