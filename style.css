@@ -12,6 +12,16 @@ body{
 
 
 /* ====== HEADER ====== */
+.navigation-logo{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
 .navigation-list-link {
 font-weight: 500;
 font-size: 14px;
@@ -39,4 +49,68 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
+.h1 {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+/* .modal-btn {
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+} */
 /* ====== END HEDER ====== */
+/* ====== SECTION ======I */
+.lorem-item-1 {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.lorem-item-2 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.main-header {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/* ====== END SECTION I ====== */
+
+/* ====== SECTION II ======*/
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.job {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+/* ====== END SECTION III ====== */
