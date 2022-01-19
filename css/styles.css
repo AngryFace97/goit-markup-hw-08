@@ -3,6 +3,7 @@
     --secondary-font: 'Raleway', sans-serif;
     --main-color: #2196f3;
     --second-color: #757575;
+    --white-color: #ffffff;
 }
 body{
     font-family: var(--main-font);
@@ -17,7 +18,12 @@ body{
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: var(--main-color);
+    text-decoration: none;
     }
+.navigation-logo-studio {
+    color: #212121;
+
+}
 /* ====== END COMPONENTS ====== */
 
 /* ============ INDEX ============ */
@@ -29,6 +35,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
 }
 
 .navigation-list-link:hover,
@@ -50,11 +58,15 @@ font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.02em;
 color: var(--second-color);
+text-decoration: none;
 }
 
 /* ====== END HEDER ====== */
 
 /* ====== SECTION I ====== */
+.section-1{
+    background-color: #2F303A;
+}
 
 .main-header {
 font-weight: 900;
@@ -63,13 +75,17 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+color: var(--white-color);
 }
 .modal-btn {
     background: var(--main-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor:pointer;
+}
 
+.modal-btn-text {
+color: var(--white-color);
 }
 
 /* ====== END SECTION I ====== */
@@ -103,6 +119,10 @@ letter-spacing: 0.03em;
 
 /* ====== SECTION III ======*/
 
+.section-3 {
+    background-color: #F5F4FA;
+}
+
 .workers-list-name {
     font-weight: 500;
     font-size: 16px;
@@ -122,6 +142,22 @@ letter-spacing: 0.03em;
 
 
 /* ====== FOOTER ====== */
+.footer {
+    background-color: #2F303A;
+}
+.mail-link-footer,
+.tel-link-footer {
+    color: #ffffff 60%;
+
+}
+.address-link-footer{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation-logo-studio-footer {
+    color: #ffffff;
+}
 
 /* ====== END FOOTER ====== */
 
