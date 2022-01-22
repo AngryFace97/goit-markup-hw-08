@@ -5,11 +5,32 @@
     --second-color: #757575;
     --white-color: #ffffff;
 }
+
 body{
     font-family: var(--main-font);
     color: #212121;
 }
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.conteiner {
+    width: 1600px;
+    padding: 0 15px;
+    display: flex;
+}
 /* ====== COMPONENTS ====== */
+.navigation {
+    display: flex;
+}
 .navigation-logo{
     font-family: Raleway;
     font-style: normal;
@@ -29,6 +50,7 @@ body{
 /* ============ INDEX ============ */
 
 /* ====== HEADER ====== */
+
 
 .navigation-list-link {
 font-weight: 500;
