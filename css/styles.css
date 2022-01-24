@@ -26,10 +26,14 @@ img {
     width: 1600px;
     padding: 0 15px;
     display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 24px;
 }
 /* ====== COMPONENTS ====== */
 .navigation {
     display: flex;
+    align-items: center;
 }
 .navigation-logo{
     font-family: Raleway;
@@ -41,16 +45,27 @@ img {
     color: var(--main-color);
     text-decoration: none;
     }
+    
 .navigation-logo-studio {
     color: #212121;
-
 }
 /* ====== END COMPONENTS ====== */
 
 /* ============ INDEX ============ */
 
 /* ====== HEADER ====== */
+.header .navigation-logo {
+    margin-left: 215px;
+    margin-right: 93px;
+}
 
+.navigation-list {
+    display: flex;
+}
+
+.navigation-list-item:not(:last-child) {
+    margin-right: 46px;
+}
 
 .navigation-list-link {
 font-weight: 500;
@@ -83,11 +98,27 @@ color: var(--second-color);
 text-decoration: none;
 }
 
+.address {
+    display:flex;
+    margin-left: auto;
+}
+
+.address .mail {
+    margin-right: 50px;
+}
+
+.address .tel {
+    margin-right: 226px;
+}
+
 /* ====== END HEDER ====== */
 
 /* ====== SECTION I ====== */
 .section-1{
     background-color: #2F303A;
+    width: 1600px;
+min-height: 600px;
+margin-top: 25px;
 }
 
 .main-header {
@@ -98,12 +129,24 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-color);
+padding-top: 200px;
+padding-right: 452px;
+padding-left: 452px;
+}
+.modal-btn-div{
+    padding-top: 30px;
+    padding-left: 700px;
+    padding-right: 700px;
+    padding-bottom: 200px;
+
 }
 .modal-btn {
     background: var(--main-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor:pointer;
+width: 200px;
+padding: 10px 41px;
 }
 
 .modal-btn-text {
@@ -114,6 +157,21 @@ color: var(--white-color);
 
 
 /* ====== SECTION II ======*/
+
+.section-2{
+    width: 1600px;
+}
+
+.lorem-list {
+    display: flex;
+    padding-top: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.lorem-list-item:not(:last-child){
+padding-right: 30px;
+}
 
 .lorem-list-item-1 {
 font-weight: bold;
@@ -127,6 +185,7 @@ text-transform: uppercase;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--second-color);
+    padding-top: 10px;
 }
 .secondary-header {
 font-weight: bold;
@@ -134,6 +193,19 @@ font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
+padding-top: 94px;
+padding-bottom: 50px;
+}
+
+.what-we-do-list {
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 94px;
+}
+
+.what-we-do-list-item:not(:last-child) {
+    padding-right: 30px;
 }
 
 /* ====== END SECTION II ====== */
@@ -143,6 +215,24 @@ letter-spacing: 0.03em;
 
 .section-3 {
     background-color: #F5F4FA;
+    width: 1600px;
+}
+
+.workers-list {
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 94px;
+}
+
+.workers-list-item:not(:last-child){
+    margin-right:30px;
+}
+
+.workers-list-item {
+    width: 270px;
+    height: 368px;
+    background-color: #fff;
 }
 
 .workers-list-name {
@@ -151,6 +241,7 @@ letter-spacing: 0.03em;
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 30px;
 }
 
 .workers-list-job {
@@ -159,6 +250,7 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
+    padding-top: 10px;
 }
 /* ====== END SECTION III ======*/
 
@@ -166,7 +258,14 @@ letter-spacing: 0.03em;
 /* ====== FOOTER ====== */
 .footer {
     background-color: #2F303A;
+    width: 1600px;
 }
+
+.footer .navigation-logo {
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
 .mail-link-footer,
 .tel-link-footer {
     color: #ffffff 60%;
