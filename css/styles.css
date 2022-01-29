@@ -22,11 +22,9 @@ ul {
 img {
     display: block;
 }
-.conteiner {
-    width: 1600px;
+.container {
+    width: 1200px;
     padding: 0 15px;
-    display: flex;
-    align-items: center;
     margin: 0 auto;
 }
 /* ====== COMPONENTS ====== */
@@ -55,14 +53,12 @@ img {
 
 /* ====== HEADER ====== */
 .header .navigation-logo {
-    margin-left: 215px;
     margin-right: 93px;
 }
-
-.header {
-    
+.menu {
+    display: flex;
+    align-items: center;
 }
-
 .navigation-list {
     display: flex;
 }
@@ -70,6 +66,7 @@ img {
 .navigation-list-item:not(:last-child) {
     margin-right: 46px;
 }
+
 
 .navigation-list-link {
 font-weight: 500;
@@ -112,16 +109,12 @@ text-decoration: none;
     margin-right: 50px;
 }
 
-.address .tel {
-    margin-right: 226px;
-}
 
 /* ====== END HEDER ====== */
 
 /* ====== SECTION I ====== */
 .section-1{
     background-color: #2F303A;
-    width: 1600px;
 min-height: 600px;
 margin-top: 25px;
 }
@@ -135,13 +128,12 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-color);
 padding-top: 200px;
-padding-right: 452px;
-padding-left: 452px;
+padding-right: 400px;
+padding-left: 400px;
 }
 .modal-btn-div{
     padding-top: 30px;
-    padding-left: 700px;
-    padding-right: 700px;
+    padding-left: 650px;
     padding-bottom: 200px;
 
 }
@@ -163,15 +155,10 @@ color: var(--white-color);
 
 /* ====== SECTION II ======*/
 
-.section-2{
-    width: 1600px;
-}
 
 .lorem-list {
     display: flex;
     padding-top: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
 }
 
 .lorem-list-item:not(:last-child){
@@ -204,8 +191,6 @@ padding-bottom: 50px;
 
 .what-we-do-list {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
     padding-bottom: 94px;
 }
 
@@ -220,13 +205,10 @@ padding-bottom: 50px;
 
 .section-3 {
     background-color: #F5F4FA;
-    width: 1600px;
 }
 
 .workers-list {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
     padding-bottom: 94px;
 }
 
@@ -264,18 +246,14 @@ border-radius: 0px 0px 4px 4px;
 /* ====== FOOTER ====== */
 .footer {
     background-color: #2F303A;
-    width: 1600px;
 }
 
 .logo-footer {
     padding-top: 50px;
-    padding-left: 215px;
     padding-bottom: 20px;
 }
 
-.address-list-item {
-padding-left: 215px;
-}
+
 .address-list-item:not(:last-child) {
 padding-bottom: 9px;
 }
@@ -308,7 +286,7 @@ padding-bottom: 9px;
 
 .filtr-list {
     display: flex;
-    padding-left: 510px;
+    padding-left: 275px;
     padding-top: 94px;
     margin-top: 25px;
     border-top: 1px solid #ECECEC;
@@ -338,12 +316,12 @@ color: #fff;
 display: flex;
 align-items: center;
 flex-wrap: wrap;
-padding-left: 215px;
+/* padding-left: 215px; */
 margin-top: 56px;
 }
 
 .portfolio-list-item:not(:nth-child(3n+3)) {
-    margin-right: 30px;
+    margin-right: 15px;
 }
 .portfolio-list-item {
 background: #FFFFFF;
