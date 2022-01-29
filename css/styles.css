@@ -67,6 +67,10 @@ img {
     margin-right: 46px;
 }
 
+.header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ECECEC;
+}
 
 .navigation-list-link {
 font-weight: 500;
@@ -116,7 +120,6 @@ text-decoration: none;
 .section-1{
     background-color: #2F303A;
 min-height: 600px;
-margin-top: 25px;
 }
 
 .main-header {
@@ -286,10 +289,8 @@ padding-bottom: 9px;
 
 .filtr-list {
     display: flex;
-    padding-left: 275px;
+    padding-left: 300px;
     padding-top: 94px;
-    margin-top: 25px;
-    border-top: 1px solid #ECECEC;
 }
 
 .filtr-btn {
