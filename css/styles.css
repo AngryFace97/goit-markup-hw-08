@@ -117,7 +117,10 @@ text-decoration: none;
 /* ====== END HEDER ====== */
 
 /* ====== SECTION I ====== */
-.section-1{
+.section-1 {
+    background-image: url("/images/background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: #2F303A;
 min-height: 600px;
 }
@@ -131,12 +134,12 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-color);
 padding-top: 200px;
-padding-right: 400px;
-padding-left: 400px;
+padding-right: 250px;
+padding-left: 250px;
 }
 .modal-btn-div{
     padding-top: 30px;
-    padding-left: 650px;
+    padding-left: 475px;
     padding-bottom: 200px;
 
 }
