@@ -88,7 +88,11 @@ color: #212121;
 .tel-link:hover,
 .tel-link:focus,
 .address-link:hover,
-.address-link:focus{
+.address-link:focus
+.tel-link-svg:hover
+.tel-link-svg:focus
+.mail-link-svg:hover
+.mail-link-svg:focus{
     color: var(--main-color);
 }
 
@@ -104,6 +108,11 @@ text-decoration: none;
 align-items: center;
 justify-content: center;
 display: flex;
+}
+
+.tel-link-svg
+.mail-link-svg{
+    color: var(--second-color);
 }
 
 .address {
