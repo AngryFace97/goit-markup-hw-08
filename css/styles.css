@@ -68,7 +68,7 @@ img {
 }
 
 .header {
-    padding-bottom: 30px;
+    height: 80px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -89,15 +89,18 @@ color: #212121;
 .tel-link:focus,
 .address-link:hover,
 .address-link:focus,
-.tel-link-svg:hover,
-.tel-link-svg:focus,
-.mail-link-svg:hover,
-.mail-link-svg:focus,
 .mail-link-footer:hover,
 .mail-link-footer:focus,
 .tel-link-footer:hover,
 .tel-link-footer:focus{
     color: var(--main-color);
+}
+
+.mail a,
+.tel a{
+    align-items: center;
+justify-content: center;
+display: flex;
 }
 
 .mail-link,
@@ -109,9 +112,20 @@ line-height: 1.143;
 letter-spacing: 0.02em;
 color: var(--second-color);
 text-decoration: none;
-align-items: center;
-justify-content: center;
-display: flex;
+fill: var(--second-color);
+}
+
+.mail-link:focus,
+.mail-link:hover,
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--main-color);
+  fill: var(--main-color);
+}
+
+.mail-link svg,
+.tel-link svg {
+    margin-right: 10px;
 }
 
 .tel-link-svg
@@ -211,6 +225,12 @@ text-transform: uppercase;
     color: var(--second-color);
     padding-top: 10px;
 }
+
+/* ====== END SECTION II ====== */
+
+
+/* ====== SECTION III ======*/
+
 .secondary-header {
 font-weight: bold;
 font-size: 36px;
@@ -230,12 +250,12 @@ padding-bottom: 50px;
     padding-right: 30px;
 }
 
-/* ====== END SECTION II ====== */
+/* ====== END SECTION III ====== */
 
 
-/* ====== SECTION III ======*/
+/* ====== SECTION IV ======*/
 
-.section-3 {
+.section-4 {
     background-color: #F5F4FA;
 }
 
@@ -300,9 +320,9 @@ border-radius: 0px 0px 4px 4px;
   fill: var(--white-color);
   background-color: #2196F3;
 }
-/* ====== END SECTION III ======*/
+/* ====== END SECTION IV ======*/
 
-/* ====== SECTION IV ======*/
+/* ====== SECTION V ======*/
 
 .client-list {
     display: flex;
@@ -326,7 +346,7 @@ border-radius: 0px 0px 4px 4px;
   border: 1px solid #2196f3;
 }
 
-/* ====== END SECTION IV ======*/
+/* ====== END SECTION V ======*/
 
 /* ====== FOOTER ====== */
 .footer {
