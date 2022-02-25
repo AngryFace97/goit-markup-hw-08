@@ -690,15 +690,15 @@ padding-bottom: 20px;
 border-radius: 4px;
   }
 .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    background-color: var(--white-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    cursor: pointer; 
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  fill: var(--white-color);
+  background-color: var(--white-color);
+  display: flex;
 }
 .is-hidden {
     opacity: 0;
@@ -759,6 +759,7 @@ border-radius: 4px;
     display: flex;
     align-items: center;
     margin-top: 4px;
+    padding-bottom: 10px;
   }
   
   .label-wrapper svg {
@@ -768,11 +769,18 @@ border-radius: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .label-wrapper input,
-  .form-label textarea {
+  .label-wrapper input
+   {
     border-radius: 4px;
     outline: none;
-    border: 1px solid var(--second-color);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .form-label textarea{
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(33, 33, 33, 0.4);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
@@ -817,13 +825,10 @@ border-radius: 4px;
     width: 15px;
     border: 1px solid #2f303a;
     border-radius: 2px;
-    background-color: #eee;
+    background-color: var(--white-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .policy:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
   
   .policy input:checked ~ .checkmark {
     background-color: var(--main-color);
