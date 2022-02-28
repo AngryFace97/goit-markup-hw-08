@@ -1,0 +1,22 @@
+
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
+.client-list__link {
+    fill: #afb1b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    transition: fill 250ms ease-in-out, border 250ms ease-in-out;
+  }
+
+  .client-list__link:hover,
+.client-list__link:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
