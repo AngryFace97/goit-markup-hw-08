@@ -1,0 +1,29 @@
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    text-decoration: none;
+
+    &-studio {
+        color: #212121;
+    }
+
+    &-studio-footer {
+        color: #ffffff;
+    }
+
+    &-footer {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        display: flex;
+    }
+    }
+    
+
+
+
+
