@@ -1,33 +1,41 @@
 .lorem-list {
     display: flex;
     padding-top: 94px;
+
+    &__item:not(:last-child){
+        padding-right: 30px;
+        }
+
+        &__item--0 {
+            width: 270px;
+        height: 120px;
+        left: 215px;
+        top: 774px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        }
+
+        &__item--1 {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 1.143;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            }
+
+            &__item--2 {
+                font-size: 14px;
+                line-height: 1.714;
+                letter-spacing: 0.03em;
+                color: var(--second-color);
+                padding-top: 10px;
+            }
+            
 }
 
-.lorem-list__item:not(:last-child){
-padding-right: 30px;
-}
 
-.lorem-list__item--0 {
-    width: 270px;
-height: 120px;
-left: 215px;
-top: 774px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
-}
 
-.llorem-list__item--1 {
-font-weight: bold;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-.lorem-list__item--2 {
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: var(--second-color);
-    padding-top: 10px;
-}
+
+
+
