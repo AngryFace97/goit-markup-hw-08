@@ -3,15 +3,16 @@
 .what-we-do-list {
     display: flex;
     padding-bottom: 94px;
+
+    &__item {
+        position: relative;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.what-we-do-list__item {
-    position: relative;
-}
-
-.what-we-do-list__item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .descript-img {
 position: absolute;
