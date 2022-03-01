@@ -134,11 +134,11 @@ display: flex;
 .policy a {
   text-decoration: underline;
   color: var(--main-color);
-}
 
-.policy a:hover,
-.policy a:focus {
+  &:hover,
+&:focus {
   opacity: 0.8;
+}
 }
 
 .policy input {
