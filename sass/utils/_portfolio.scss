@@ -2,28 +2,27 @@
     display: flex;
     padding-left: 300px;
     padding-top: 94px;
-}
 
-.filtr-list__btn {
-    background: #F5F4FA;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 6px 22px;
-    border: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-}
+    &__btn {
+        background: #F5F4FA;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 6px 22px;
+        border: none;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.filtr-list__item:not(:last-child){
-    padding-right: 8px;
-}
+    &__item:not(:last-child){
+        padding-right: 8px;
+    }
 
-.filtr-list__btn:hover,
-.filtr-list__btn:focus {
+    &__btn:hover,
+&__btn:focus {
     background: var(--main-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 color: #fff;
+}
 }
 
 .portfolio-list {
@@ -31,70 +30,76 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 margin-top: 56px;
-}
 
-.portfolio-list__item:not(:nth-child(3n+3)) {
+&__item:not(:nth-child(3n+3)) {
     margin-right: 15px;
 }
-.portfolio-list__item {
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-margin-bottom: 30px;
+
+&__item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    }
+
+    &__item:nth-child(n + 7) {
+        margin-bottom: 94px;
+    }
+
+    &__item:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    &__name {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        padding-top: 20px;
+        padding-left: 24px;
+        }
+
+        &__category {
+            font-size: 16px;
+            line-height: 1.875;
+            letter-spacing: 0.03em;
+            color: var(--second-color);
+            padding-top: 4px;
+            padding-left: 24px;
+            padding-bottom: 20px;
+            }
+
+            &__item--bg {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+              }
+
+              &__item--description {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 100%;
+                background-color: var(--main-color);
+                color: var(--white-color);
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0,03em;
+                transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                padding-top: 49px;
+                padding-left: 24px;
+                padding-right: 45px;
+                padding-bottom: 45px;
+                opacity: 0.9;
+              }
+
+              &__item:hover .portfolio-list__item--description  {
+                transform: translateY(-100%);
+              }
 }
 
-.portfolio-list__item:nth-child(n + 7) {
-    margin-bottom: 94px;
-}
 
-.portfolio-list__item:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+  
 
-.portfolio-list__name {
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-padding-top: 20px;
-padding-left: 24px;
-}
-
-.portfolio-list__category {
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
-color: var(--second-color);
-padding-top: 4px;
-padding-left: 24px;
-padding-bottom: 20px;
-}
-
-.portfolio-list__item--bg {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .portfolio-list__item--description {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 100%;
-    background-color: var(--main-color);
-    color: var(--white-color);
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0,03em;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top: 49px;
-    padding-left: 24px;
-    padding-right: 45px;
-    padding-bottom: 45px;
-    opacity: 0.9;
-  }
-
-  .portfolio-list__item:hover .portfolio-list__item--description  {
-    transform: translateY(-100%);
-  }
+  
