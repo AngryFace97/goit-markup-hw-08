@@ -1,15 +1,15 @@
-.navigation-list__link:hover,
-.navigation-list__link:focus,
+.header__navigation-list--link:hover,
+.header__navigation-list--link:focus,
 .mail__link:hover,
 .mail__link:focus,
 .tel__link:hover,
 .tel__link:focus,
 .address-link:hover,
 .address-link:focus,
-.mail__link-footer:hover,
-.mail__link-footer:focus,
-.tel__link-footer:hover,
-.tel__link-footer:focus{
+.mail__link--footer:hover,
+.mail__link--footer:focus,
+.tel__link--footer:hover,
+.tel__link--footer:focus{
     color: var(--main-color);
 }
 
