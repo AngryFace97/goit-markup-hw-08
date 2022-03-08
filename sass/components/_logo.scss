@@ -8,15 +8,15 @@
     color: var(--main-color);
     text-decoration: none;
 
-    &-studio {
+    &__studio {
         color: #212121;
+
+        &--footer {
+            color: #ffffff;
+        }
     }
 
-    &-studio-footer {
-        color: #ffffff;
-    }
-
-    &-footer {
+    &__footer {
         padding-top: 50px;
         padding-bottom: 20px;
         display: flex;
