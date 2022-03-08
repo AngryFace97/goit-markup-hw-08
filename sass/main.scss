@@ -2,17 +2,21 @@
 @import "./base/common";
 @import "./base/components";
 
+@import "./components/navigation-footer";
+@import "./components/newsletter";
+@import "./components/active-link";
+@import "./components/navigation";
 @import "./components/logo";
 @import "./components/secondary-header";
 @import "./components/modal-window";
 @import "./components/modal-btn";
 
 @import "./layout/header";
-@import "./layout/section-1";
-@import "./layout/section-2";
-@import "./layout/section-3";
-@import "./layout/section-4";
-@import "./layout/section-5";
+@import "./layout/banner";
+@import "./layout/lorem-ipsum";
+@import "./layout/what-we-do";
+@import "./layout/workers";
+@import "./layout/client";
 @import "./layout/footer";
 
 @import "./utils/portfolio";
