@@ -1,0 +1,34 @@
+.what-we-do {
+
+    &__list {
+        display: flex;
+        padding-bottom: 94px;
+    
+        &--item {
+            position: relative;
+        }
+    
+        &--item:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__descript-img {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        background: rgba(47, 48, 58, 0.8);
+        width: 100%;
+        height: 70px;
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+        }
+}
+
+
+
+
+
+
