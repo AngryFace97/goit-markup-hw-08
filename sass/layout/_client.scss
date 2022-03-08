@@ -1,9 +1,12 @@
 .client {
 
   &__list {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 94px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, auto));
+    gap: 30px;
 
     &--link {
       fill: #afb1b8;
@@ -20,6 +23,22 @@
       fill: #2196f3;
       border: 1px solid #2196f3;
     }
+}
+@media screen and (min-width: 480px){
+        
+}
+
+@media screen and (min-width: 768px){
+  &__list {
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+
+  }
+}
+
+@media screen and (min-width: 1200px){
+  &__list{
+    display: flex;
+}
 }
 }
 
