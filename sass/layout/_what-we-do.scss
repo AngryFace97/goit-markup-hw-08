@@ -1,4 +1,5 @@
 .what-we-do {
+display: none;
 
     &__list {
         display: flex;
@@ -25,6 +26,12 @@
         color: rgba(255, 255, 255, 1);
         text-transform: uppercase;
         }
+}
+
+@media screen and (min-width: 1200px){
+    .what-we-do{
+        display: inline;
+    }
 }
 
 
