@@ -1,0 +1,62 @@
+.navigation-list__link:hover,
+.navigation-list__link:focus,
+.mail__link:hover,
+.mail__link:focus,
+.tel__link:hover,
+.tel__link:focus,
+.address-link:hover,
+.address-link:focus,
+.mail__link-footer:hover,
+.mail__link-footer:focus,
+.tel__link-footer:hover,
+.tel__link-footer:focus{
+    color: var(--main-color);
+}
+
+.mail a,
+.tel a{
+    align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.mail__link,
+.tel__link{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--second-color);
+text-decoration: none;
+fill: var(--second-color);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail__link:focus,
+.mail__link:hover,
+.tel__link:hover,
+.tel__link:focus {
+    color: var(--main-color);
+  fill: var(--main-color);
+}
+
+.mail__link svg,
+.tel__link svg {
+    margin-right: 10px;
+}
+
+.tel__link-svg
+.mail__link-svg{
+    color: var(--second-color);
+}
+
+.address {
+    display:flex;
+    margin-left: auto;
+    margin-top: 24px;
+}
+
+.address .mail {
+    margin-right: 50px;
+}
