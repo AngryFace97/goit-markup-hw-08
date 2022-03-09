@@ -9,9 +9,9 @@
       }
       
 }
-&__content {
-  display: flex;
-}
+// &__content {
+//   display: flex;
+// }
 
 &__middle {
   margin-top: 72px;
@@ -33,6 +33,7 @@
     border-radius: 50%;
     transition: background-color 250ms ease-in-out;
   }
+
   &--item:not(:last-of-type) {
     margin-right: 10px;
   }
@@ -55,6 +56,19 @@
     text-transform: uppercase;
     cursor: text;
   }
+}
+@media screen and (min-width: 480px){
+  
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 1200px){
+    &__content {
+      display: flex;
+    }
 }
 }
 
