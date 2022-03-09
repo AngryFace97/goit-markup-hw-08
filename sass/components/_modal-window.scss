@@ -25,9 +25,13 @@ top: 8px;
 border-radius: 50%;
 border: 1px solid rgba(0, 0, 0, 0.1);
 cursor: pointer;
-fill: var(--white-color);
+fill: var(--second-color);
 background-color: var(--white-color);
 display: flex;
+
+&:hover {
+  fill: var(--main-color);
+}
 }
 .is-hidden {
   opacity: 0;

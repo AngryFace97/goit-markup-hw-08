@@ -1,7 +1,7 @@
 .newsletter {
     padding-top: 16px;
     padding-bottom: 30px;
-    display: flex;
+    // display: flex;
     gap: 12px;
   
     &__text {
@@ -31,6 +31,7 @@
       justify-content: center;
       gap: 24px;
       cursor: pointer;
+      margin-top: 20px;
     }
     &__input {
       color: var(--white-color);

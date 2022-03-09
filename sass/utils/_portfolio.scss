@@ -1,7 +1,8 @@
 .filtr-list {
     display: flex;
-    padding-left: 300px;
     padding-top: 94px;
+    justify-content: center;
+	flex-wrap: wrap;
 
     &__btn {
         background: #F5F4FA;
@@ -28,12 +29,11 @@ color: #fff;
 .portfolio-list {
 display: flex;
 align-items: center;
+justify-content: center;
 flex-wrap: wrap;
 margin-top: 56px;
 
-&__item:not(:nth-child(3n+3)) {
-    margin-right: 15px;
-}
+
 
 &__item {
     background: #FFFFFF;
@@ -99,6 +99,25 @@ margin-top: 56px;
               }
 }
 
+@media screen and (min-width: 480px){
+    .filtr-list__item {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    // .portfolio-list__item:not(:nth-child(2n)) {
+    //     margin-right: 15px;
+    // }
+}
+
+@media screen and (min-width: 1200px){
+    .portfolio-list__item:not(:nth-child(3n+3)) {
+        margin-right: 15px;
+    }
+    
+}
 
   
 
