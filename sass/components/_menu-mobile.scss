@@ -3,6 +3,7 @@
 	height: 100%;
 	background-color: var(--white-color);
 	flex-direction: column;
+	z-index: 1;
 
 	&__open {
 		width: 40px;
