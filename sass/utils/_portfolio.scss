@@ -40,6 +40,7 @@ margin-top: 56px;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     margin-bottom: 30px;
+    // width: calc(50% - 7.5px);
     }
 
     &__item:nth-child(n + 7) {
@@ -105,18 +106,22 @@ margin-top: 56px;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .portfolio-list{
+        justify-content: space-between;
+        margin: 56px -15px 0;
 
-    // .portfolio-list__item:not(:nth-child(2n)) {
-    //     margin-right: 15px;
-    // }
+        &__item{
+            width: calc(50% - 7.5px);
+        }
+    }
 }
 
 @media screen and (min-width: 1200px){
     .portfolio-list__item:not(:nth-child(3n+3)) {
         margin-right: 15px;
     }
-    
+
 }
 
   
