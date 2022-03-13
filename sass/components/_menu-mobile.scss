@@ -22,7 +22,7 @@
 
 	&__list {
 		margin-top: 48px;
-		margin-bottom: 302px;
+		margin-bottom: 100px;
 		margin-left: 40px;
 	}
 
@@ -57,7 +57,8 @@
 }
 
 .mobile-contacts {
-	margin-bottom: 64px;
+	position: absolute;
+	bottom: 134px;
 	margin-left: 40px;
 
 	&__link {
@@ -70,7 +71,7 @@
 	}
 
 	&__link--accent {
-		color: blue;
+		color: var(--main-color);
 		font-size: 34px;
 		font-weight: 500;
 		line-height: 1.176;
@@ -85,9 +86,11 @@
 .mobile-socials {
 	display: flex;
 	margin-left: 40px;
+	position: absolute;
+	bottom: 48px;
 
 	&__link {
-		color: blue;
+		color: var(--main-color);
 		font-size: 18px;
 		font-weight: 500;
 		line-height: 1.222;
@@ -111,21 +114,6 @@
 		background-color: rgba(33, 33, 33, 0.2);
 	}
 }
-
-// .close-btn {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	position: absolute;
-// 	top: 8px;
-// 	right: 8px;
-// 	width: 30px;
-// 	height: 30px;
-// 	border-radius: 50%;
-// 	background-color: var(--white-color);
-// 	border: 1px solid rgba(0, 0, 0, 0.1);
-// 	cursor: pointer;
-// }
 
 
 	.close-btn__icon {
