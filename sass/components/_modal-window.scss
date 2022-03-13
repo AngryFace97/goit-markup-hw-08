@@ -28,6 +28,7 @@ cursor: pointer;
 fill: var(--second-color);
 background-color: var(--white-color);
 display: flex;
+padding: 0;
 
 &:hover {
   fill: var(--main-color);
