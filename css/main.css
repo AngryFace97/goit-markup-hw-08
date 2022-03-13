@@ -271,6 +271,7 @@ h4 {
   fill: var(--second-color);
   background-color: var(--white-color);
   display: flex;
+  padding: 0;
 }
 
 .close-btn:hover {
@@ -472,7 +473,7 @@ h4 {
 
 .menu-mobile__list {
   margin-top: 48px;
-  margin-bottom: 302px;
+  margin-bottom: 100px;
   margin-left: 40px;
 }
 
@@ -505,7 +506,8 @@ h4 {
 }
 
 .mobile-contacts {
-  margin-bottom: 64px;
+  position: absolute;
+  bottom: 134px;
   margin-left: 40px;
 }
 
@@ -519,7 +521,7 @@ h4 {
 }
 
 .mobile-contacts__link--accent {
-  color: blue;
+  color: var(--main-color);
   font-size: 34px;
   font-weight: 500;
   line-height: 1.176;
@@ -533,10 +535,12 @@ h4 {
 .mobile-socials {
   display: flex;
   margin-left: 40px;
+  position: absolute;
+  bottom: 48px;
 }
 
 .mobile-socials__link {
-  color: blue;
+  color: var(--main-color);
   font-size: 18px;
   font-weight: 500;
   line-height: 1.222;
